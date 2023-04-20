@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Typography */
+
+.accent-text{
+    font-weight: 900;
+    color: #9ef01a;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.inverse{
+    background: #0d1321;
+    color: #9381FF;
+    text-shadow: 2px 2px black;
+}
+
+.about-me{
+    background-image: linear-gradient(to right,  cyan, red, violet);
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+
+/* Layout */
+
+.container{
+    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.jimmy-img{
+    width: 200px;
+    height: 270px;
+    border: 5px solid #9ef01a;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+h1, h2{
+    border-top: 4px solid #f0ebd8;
+    border-bottom: 4px solid #f0ebd8;
+    padding-top: 20px;
+}
+h1 span,
+h2 span {
+    display: block;
+    margin-bottom: 20px;
+}
+h1 span{
+    font-size: 50px;
+}
+h2 span{
+    font-size: 40px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #9ef01a;
+    margin-top: 20px;
+    background: #9381FF;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.btn:hover,
+.btn:focus{
+    background: #9ef01a;
+    color: #9381FF;
+}
+
+.continue-to-read{
+    font-size: 20px;
+    color: #9ef01a;
+    text-decoration: none;
+}
+.continue-to-read:hover,
+.continue-to-read:focus{
+    background: #f0ebd8;
+    color:#9ef01a;
+}
+p{
+    margin: 20px;
+    font-size: 15px;
+}
+.small-text{
+    font-size: 12px;
+    margin: 0;
+}
+h3{
+    margin-top: 15px; 
+    font-size: 20px;
+}
